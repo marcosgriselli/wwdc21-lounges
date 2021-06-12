@@ -1,0 +1,137 @@
+
+Betsy (Apple) Jun 8th at 2:39 PM
+More buttons thread :thread:
+
+
+
+28 replies
+
+Jeff  4 days ago
+so many buttons!
+:star-struck:
+2
+
+Shubham  4 days ago
+Awesome, button styles! :heart_eyes:
+:eyes:
+1
+
+Soo Rin  4 days ago
+:crossed_fingers: that tvOS fosused modifier is fixed
+
+Christopher  4 days ago
+Look like I’m ripping out my buttons and replacing them with these!
+
+Christopher  4 days ago
+Love this!
+:+1:
+3
+
+Cameron  4 days ago
+Less code on my end! Great!
+
+James  4 days ago
+Same here! :tada:
+
+Seyed Parsa  4 days ago
+Ready to use, beautiful buttons :slightly_smiling_face:
+:+1:
+4
+
+Dan  4 days ago
+These will be great as a user too!
+:+1:
+2
+
+Christopher  4 days ago
+ooooh pressed and disabled states is included
+:heart:
+1
+
+Dan  4 days ago
+:raised_hands:
+
+Sean  4 days ago
+I love these buttons!
+
+Christopher  4 days ago
+Native AddToSiriButton similar to SignInWithAppleButton()?
+
+Seyed Parsa  4 days ago
+But easy for an app to abuse the property, turning all the buttons to prominent to draw user focus. :disappointed:
+
+Curt (Apple):couch_and_lamp:  4 days ago
+@Christopher that would be a great feature request Feedback!
+:+1:
+6
+
+Lennart  4 days ago
+Love all the changes around buttons :clap: really well thought out :rocket:
+:raised_hands:
+1
+
+Austin  4 days ago
+This Feedback Assistant button should be larger! I'll file one about it using the button.
+Screen Shot 2021-06-08 at 10.42.01 AM.png 
+Screen Shot 2021-06-08 at 10.42.01 AM.png
+
+
+:grin:
+2
+
+Rebecca  4 days ago
+Destructive actions in context menus was high on my wishlist…thanks team! :tada:
+:raised_hands:
+2
+:smile:
+1
+:+1:
+3
+
+Rajée  4 days ago
+Large button might be the sleeper/savior of SwiftUI lol
+:raised_hands:
+2
+
+Seyed Parsa  4 days ago
+Are buttons without indicators considered good UX? Do you suggest using them?
+:thinking_face:
+1
+
+Christopher  4 days ago
+Destructive actions makes me so happy.
+:+1::skin-tone-2:
+1
+
+Austin  4 days ago
+Do destructive buttons on watchOS (assuming the platform is covered) come with some sort of "are you sure" sheet?
+
+Curt (Apple):couch_and_lamp:  4 days ago
+I’d suggest using disabling indicators with care. They are less discoverable.
+:+1:
+7
+:heart_eyes:
+1
+
+Taylor (Apple)  4 days ago
+It’s a good design question! Definitely consider your users and if they’d expect a menu to be shown or not from the button. (edited) 
+:+1:
+1
+
+Curt (Apple):couch_and_lamp:  4 days ago
+They’re good accelerators for things like forward/back buttons that advanced users will appreciate.
+:+1:
+3
+
+Matt (Apple)  4 days ago
+@Austin not automatically, but check out the new confirmationDialog
+:+1:
+3
+
+Dan  4 days ago
+Where would I learn about ways to have existing SwiftUI code inherit the newer features so I could support both iOS 14 and 15
+
+Sam (Apple)  4 days ago
+It’s worth noting that lots of these new APIs (like menu with a primaryAction) utilize Multiple Trailing Closures. But it’s not just newly added APIs that got this treatment: Many existing APIs have been given overloads that utilize Multiple Trailing Closures so you can use a consistent style throughout your apps :slightly_smiling_face: (edited) 
+:heart:
+1

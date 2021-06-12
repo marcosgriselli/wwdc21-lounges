@@ -1,0 +1,335 @@
+Betsy (Apple) Jun 8th at 2:24 PM
+Advanced graphics thread :thread:
+
+
+
+73 replies
+
+Gilad  4 days ago
+Oooh Palette
+:+1:
+3
+
+Ethan  4 days ago
+The new symbols look so good in multicolor!
+:heart:
+1
+
+Jeff  4 days ago
+i love symbols, and these API additions give me some ideas for some of my own APIs
+
+Shubham  4 days ago
+Lot's of amazing new symbols
+
+Andrew  4 days ago
+If the symbols are OS-version dependent, why aren’t the names provided via an enum?
+:heavy_plus_sign:
+5
+
+Justin  4 days ago
+I love the new color options!
+
+Christopher  4 days ago
+Love how they look with multiple colors!
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Color.indigo and Color.teal represent!
+:tada:
+7
+:heart:
+3
+:large_green_circle:
+2
+:large_purple_circle:
+2
+
+Jacob  4 days ago
+Multicolor! :fire:
+
+Seyed Parsa  4 days ago
+Does using Palette colors affect the performance in any way?
+
+Jake (Apple)  4 days ago
+Indigo is so great :purple_heart:
+:purple_heart:
+2
+:heart:
+1
+
+Gilad  4 days ago
+why aren’t the names provided via an enum
+I think that’s because they’re not exactly a closed set, or something you’d want to switch over :slightly_smiling_face:
+:+1:
+1
+
+Andrew  4 days ago
+Automatic variant by platform is sharp
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Symbol drawing is highly optimized. Palette’s should NOT be an issue. (edited) 
+:+1:
+2
+:heavy_plus_sign:
+2
+
+Jeff  4 days ago
+not* ? :stuck_out_tongue_winking_eye:
+
+Curt (Apple):couch_and_lamp:  4 days ago
+yep
+
+Seyed Parsa  4 days ago
+Can we force SF Symbol to not be filled?
+
+Clément  4 days ago
+how to know what part of the name of the symbol are dynamic ?
+
+Jeff  4 days ago
+is there a way to still force a particular style?
+
+Anatoly  4 days ago
+What is the use case of this Canvas?
+:+1:
+2
+
+Gilad  4 days ago
+WHOA
+
+惜  4 days ago
+Cann’t live without SF Symbols. Question: When did come to React / web?
+
+Andrew  4 days ago
+Is this another John Harper special?
+:laughing:
+8
+
+Rajée  4 days ago
+:exploding_head:
+
+Zaim  4 days ago
+Would there be a protocol to populate custom colors so that they also get the built-in features for free (dark/light/blur adapting)?
+
+Matthew  4 days ago
+Amazing demo. SF Symbols are so pleasant overall.
+:+1:
+3
+
+Shubham  4 days ago
+Is there any chance of Canvas lagging when it has lots of particles/graphics?
+
+Josh (Apple)  4 days ago
+TimelineView!
+:clock1:
+3
+:heart:
+4
+
+Seyed Parsa  4 days ago
+Does Canvas use low-level frameworks like Metal (?) to perform better?
+:heavy_plus_sign:
+1
+
+Vitor  4 days ago
+OMG OMG OMG Canvas!
+:heavy_plus_sign:
+1
+
+Jeff  4 days ago
+i hadn't even considered using that for automated animations like screensavers!
+
+Arno  4 days ago
+Btw this is a bit information overload but pretty fun to watch together
+:+1:
+4
+:heavy_plus_sign:
+5
+
+Seyed Parsa  4 days ago
+Finally apps in always-on!
+
+Jorge  4 days ago
+Wow, so many symbols to choose from! :star-struck:
+
+Jeff:bird:  4 days ago
+Does TimelineView work in widgets?
+:heavy_plus_sign:
+3
+
+Seyed Parsa  4 days ago
+@Jorge SF Symbols apps to your rescue
+
+Austin  4 days ago
+I still chuckle at how the SF Symbol for a Windows PC is depicted with the crash screen frown. (edited) 
+:joy:
+6
+:grin:
+2
+
+Luca (Apple)  4 days ago
+@Jeff No, Widgets use a separate API.
+
+Seyed Parsa  4 days ago
+Nice to be able to set privacy sensitivity
+
+Andrew  4 days ago
+Yeah I too wonder if Canvas is Metal (GPU) accelerated or if it still done on the CPU like CoreGraphics drawing is.
+
+Josh (Apple)  4 days ago
+Can't wait to see all your apps in Always On on watchOS!
+:raised_hands:
+3
+:watch:
+5
+
+Seyed Parsa  4 days ago
+3166 Symbols?!?!?!
+:mechanical_arm:
+1
+
+Sean  4 days ago
+@Austin I love that SF Symbol so much :joy:
+
+惜  4 days ago
+TimelineView in widgets?
+
+Jeff  4 days ago
+does foregroundStyle replace foregroundColor?
+
+Arno  4 days ago
+Is Material available in WidgetKit?
+:heavy_plus_sign:
+1
+
+Shubham  4 days ago
+When will the new SFSymbols beta be available?
+:rocket:
+2
+:point_up:
+1
+
+Austin  4 days ago
+It's available.
+:point_up::skin-tone-2:
+1
+:grin:
+1
+:+1:
+1
+
+An:uk:  4 days ago
+https://developer.apple.com/sf-symbols/
+edit: (Link to SF Symbols 3 beta) (edited) 
+
+Matthew  4 days ago
+Did I just see multi-orientation previews :hearts:
+:+1:
+1
+:eyes:
+2
+:tada:
+2
+
+Andrew  4 days ago
+For some reason when I install the beta, the old app is broken. But new one works great. (edited) 
+
+Taylor (Apple)  4 days ago
+@Jeff, for most use cases yes, and has increased flexibility in that it takes both Color and shape styles. The rich graphics session has some really cool examples of that
+:+1:
+1
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Landscape previews are great!
+:raised_hands:
+5
+:clap:
+2
+:point_up:
+1
+:heart_eyes:
+1
+
+Austin  4 days ago
+I think SF Symbols would make more sense on the Mac App Store under the developer tools category, but not a big deal.
+:point_up_2:
+1
+
+Vitor  4 days ago
+OOOOH MY GOOOOOOD!! LANDSCAPE PREVIEWS!!!!
+:raised_hands::skin-tone-5:
+1
+
+Christopher  4 days ago
+Love the accessibility inspector for previews!
+
+Vitor  4 days ago
+Sorry for yelling,,,,
+:sweat_smile:
+1
+
+Vitor  4 days ago
+Too excited!
+:heart:
+2
+
+Christian  4 days ago
+Oh love the accessibility preview!
+:100:
+1
+
+Curt (Apple):couch_and_lamp:  4 days ago
+preview orientation is case iterable, so you can loop over all the orientations
+:+1:
+5
+:heart_eyes:
+2
+:heart:
+1
+:clap:
+1
+
+Vitor  4 days ago
+I’ve been suffering from not having landscape previews!
+
+Jeff  4 days ago
+now we just need a grid layout for previews, so we can have dynamic type sizes across and locale up/down
+:+1:
+1
+
+Jeff:bird:  4 days ago
+Can you manually disable Markdown support?
+
+Vitor  4 days ago
+I could kiss you @Curt (Apple) and the rest of the team
+
+Vitor  4 days ago
+Ah, the joy of the little quality of life improvements.
+
+Matthew  4 days ago
+This is what incremental improvement looks like — so great so far
+
+Regine  4 days ago
+love the dynamic type restriction - will be changing all my hard coded font to system fonts
+
+Wynn  4 days ago
+Love the drawing with Canvas. Also love the spatial audio used in the videos. AAA+++
+
+Alejandro  4 days ago
+The video implies that you can share with other apps what you have drawn with Canvas. Is that correct? Is there an API to export SwiftUI views to images that can be shared or saved on disk? without going to uikit/appkit ofc :stuck_out_tongue:
+
+Taylor (Apple)  4 days ago
+@Alejandro, what do you mean by share with other apps?  There is not yet a SwiftUI API for snapshotting a view as an image
+:ok_hand:
+1
+
+Alejandro  4 days ago
+@Taylor (Apple) oh thanks. I meant that the video talked about share providers and switched to Canvas. I thought they were related ^^ sorry my mistake.
+it would be nice if that api existed tho :stuck_out_tongue:
+I’m using SwiftUI outside apps, from terminal CLI tools, and is very handy to generate graphics :heart: Canvas just makes it even better!! but is a bit of a pain to have to use appkit for saving the images.
+
+Taylor (Apple)  4 days ago
+No worries! If you haven’t already, do file a feedback to request that enhancement, it’s always useful to know how many people would like a new feature :slightly_smiling_face:
+:heart:
+1
+
+Jorge  4 days ago
+Amazing work SwiftUI team!  This is wonderful content to work with! :heart:

@@ -1,0 +1,216 @@
+Betsy (Apple) Jun 8th at 2:17 PM
+Beyond lists thread :thread:
+44 replies
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Tables!!!
+:tada:
+18
+
+Shubham  4 days ago
+Tables wow
+
+Matthew  4 days ago
+Tables: fantastic!  Are Tables MacOS only?
+:heavy_plus_sign:
+4
+
+Zaim  4 days ago
+Would Tables be backwards compatible?
+
+Jeff:bird:  4 days ago
+Do SwiftUI tables work in Catalyst apps?
+
+Franco:speech_balloon:  4 days ago
+i have a feeling tables would be cool on iPadOS — maybe in the next SwiftUI / iPadOS version?
+:point_up:
+2
+
+Justin  4 days ago
+Woah. Tables!
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Tables are macOS only today and not available in Catalyst.
+:crying_cat_face:
+5
+:+1:
+2
+
+Regine  4 days ago
+Please bring to mobile next year:)
+:point_up:
+1
+
+Taylor (Apple)  4 days ago
+Feedbacks are always welcome :slightly_smiling_face:
+
+Seyed Parsa  4 days ago
+Maybe tables could be a nice suggestion for iPadOS
+:point_up:
+3
+
+Christopher  4 days ago
+Will definitely need to check out that Core Data talk to learn more about this mysterious/awesome-looking SectionedFetchRequest.
+:+1:
+1
+
+Shubham  4 days ago
+Need to check out integrating CoreData with SwiftUI
+:+1:
+1
+
+Michael  4 days ago
+How's the performance of the table with large datasets? (I have issues with performance of List on macOS already with not too many rows in a List)
+:+1:
+2
+
+Sam (Apple)  4 days ago
+As a fun note: Some of the Foundation API behind Table, namely the SortComparator protocol is quite general and can be used to drive your tables with all kinds of data sources: SortDescriptor for CoreData driven tables, KeyPathComparator for in-memory data, and for other data sources, you can provide custom implementations of SortComparator! (edited) 
+:heart:
+8
+:+1:
+2
+
+Vitor  4 days ago
+Tables are AWESOME.
+:+1:
+1
+
+Andrew  4 days ago
+Still hoping a more swifty alternative to Core Data is coming
+:100:
+6
+
+Shubham  4 days ago
+Search Modifier nice! :D
+
+Taylor (Apple)  4 days ago
+namely the SortComparator protocol is quite general
+And that’s available on every platform, and can be used alongside List or your own views! (edited) 
+:tada:
+5
+:+1:
+1
+:star-struck:
+1
+
+Vitor  4 days ago
+I remember how labor-intensive it was to get stuff like sorting done… now we have it for free! I love these guys
+
+Seyed Parsa  4 days ago
+@Taylor (Apple) How can we customize search text box by using searchable? Should we return to old style adding text box?
+
+惜  4 days ago
+Want to change my app to iOS 15 only.
+:heart:
+8
+:smiling_imp:
+1
+
+Sam (Apple)  4 days ago
+:hammer:
+:joy:
+1
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Lol
+
+Kedar  4 days ago
+This searchable stuff is absolutely :peanuts: (edited) 
+
+Matthew  4 days ago
+There is no custom WWDC pink hammer Slack reaction :wink:
+:rolling_on_the_floor_laughing:
+10
+
+Jeff:bird:  4 days ago
+Do Apple employees frequently carry hammers in their pockets?
+:joy:
+10
+:smile:
+1
+
+Matt (Apple)  4 days ago
+Yes
+:laughing:
+8
+:hammer:
+11
+
+Shubham  4 days ago
+haha
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Anyway to squash a bug (edited) 
+:heart:
+3
+
+Sam (Apple)  4 days ago
+That’s the standard issue Apple hammer.
+:joy:
+15
+:+1:
+4
+:heart:
+2
+
+David (Apple)  4 days ago
+Can confirm … standard
+:hammer:
+9
+:heartpulse:
+1
+
+Taylor (Apple)  4 days ago
+Mine is green though
+:hammer:
+4
+:green_heart:
+3
+
+Jeff  4 days ago
+pretty sure i have one of those in a drawer somewhere, does that mean im an unofficial apple employee? :stuck_out_tongue_winking_eye:
+:grin:
+1
+
+Mike  4 days ago
+Are there hammer fights in the halls?
+
+Clément  4 days ago
+does the modifier of importItemProviders work with other commands, or other stuff to import things in the app ?
+
+Christopher  4 days ago
+Can we use importFromDevices as source for AsyncImage for something like an ImagePicker?
+
+Tom  4 days ago
+Customisable Hammer Colours - very Apple
+
+Seyed Parsa  4 days ago
+Any way to move the search box from the default position? Still using searchable
+
+Tom  4 days ago
+Stainless steel with a leather wrapped handle?
+
+Harry (Apple)  4 days ago
+@Seyed Parsa Look into the SearchFieldPlacement type. It provides a few different locations for the search field that you can pass to the searchable modifier (.searchable(text: $text, placement: .sidebar))
+:raised_hands:
+1
+
+Brenden  4 days ago
+This timeline view is :100:
+
+Alexandre  4 days ago
+Hi SwiftUI team!
+I would like to know if its now possible to use NavigationLink for Single View (not column) on MacOS.
+On SwiftUI 2 that want not possible. Did this change on SwiftUI 3?
+https://stackoverflow.com/questions/61424225/macos-swiftui-navigation-for-a-single-view (edited) 
+Stack OverflowStack Overflow
+macOS SwiftUI Navigation for a Single View
+I'm attempting to create a settings view for my macOS SwiftUI status bar app. My implementation so far has been using a NavigationView, and NavigationLink, but this solution produces a half view as...
+
+Alexandre  4 days ago
+Is it possible now to get a translucent Sidebar on Mac Catalyst?
+https://stackoverflow.com/questions/65673118/swiftui-catalyst-translucent-sidebar
+Stack OverflowStack Overflow
+SwiftUI - Catalyst translucent sidebar
+Goal is to make a translucent sidebar on Mac Catalyst. The code bellow gives a not translucent sidebar (image 1). On Mac (not catalyst) the sidebar looks fine (image 2). is it possible to have a

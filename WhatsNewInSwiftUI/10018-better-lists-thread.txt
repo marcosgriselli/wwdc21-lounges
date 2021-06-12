@@ -1,0 +1,400 @@
+Betsy (Apple) Jun 8th at 2:08 PM
+Better lists thread :thread:
+
+
+
+91 replies
+
+Austin  4 days ago
+Okay this is great
+:tada:
+1
+
+Olivier  4 days ago
+Impressive
+
+Curt (Apple):couch_and_lamp:  4 days ago
+SuperDog!
+
+Matthew  4 days ago
+I’ll be able to replace home-grown Async Image with AsyncImage!  I wonder if we can specific cache for AsyncImage, or if it’s standard/automatic?
+:eyes:
+15
+
+Andrew  4 days ago
+Who else built an AsyncImage ?
+:hand:
+34
+:man-raising-hand:
+1
+:raising_hand:
+1
+:sweat_smile:
+1
+
+Shubham  4 days ago
+I wanted the line separator removal so badly :smile:
+:+1:
+10
+:joy:
+4
+:heart:
+4
+
+Peter  4 days ago
+Line separator removal is a game changer for sure )) (edited) 
+:raised_hands:
+1
+
+Ethan  4 days ago
+Does AsyncImage work with Quick Look generated thumbnails?
+
+Philip  4 days ago
+Literally yesterday I was futzing with the separator in Lists, trying to use LazyVStacks instead to get rid of them, then realizing that it won’t work to let me do “onDelete” on my list items because it’s not a list anymore. So happy to see this simplified.
+
+Tom  4 days ago
+They must have seen the amount of AsyncImage snippets on SO
+:+1:
+4
+
+Luca (Apple)  4 days ago
+@Matthew there is no such customization at the moment but definitely a great feedback to submit to us!
+:point_up_2:
+1
+
+Seyed Parsa  4 days ago
+Does AsyncImage load images progressively (from lo-res to high-res) or by once? (edited) 
+:point_up_2:
+3
+This message was removed.
+
+Rajée  4 days ago
+task  = viewDidLoad ?
+:grin:
+2
+
+Anatoly  4 days ago
+We built 2 versions of pull-to-refresh - for Lists on iOS13 and 14, hack on hack :persevere:
+:smile:
+2
+:heavy_plus_sign:
+2
+
+Ilter  4 days ago
+How does AsyncImage behave in a long list? Should we worry about reused rows and/or load times (do all of them load at once or as we scroll?)
+
+Matthew  4 days ago
+Wow, async interation — that is phenomenal (.task modifier)
+
+Jeff  4 days ago
+@Luca (Apple) no customization, but is there any standard caching behavior built in?
+:point_up:
+5
+
+Shubham  4 days ago
+Me too @Anatoly I built a custom refresh control as well :sweat_smile:
+:relaxed:
+2
+
+Joshua  4 days ago
+Can .swipeActions work on ScrollView/VStack views? Or only on a List?
+
+Sam (Apple)  4 days ago
+I wouldn’t say that task is equivalent to view did load. Think of it as some async piece of work whose lifetime is tied to the view it’s attached to. The task will live as long as the view does, and will be automatically canceled when the view’s lifetime ends.
+:+1:
+6
+
+Curt (Apple):couch_and_lamp:  4 days ago
+See tomorrow’s Demystify SwiftUI talk for more on view lifetime.
+:heavy_plus_sign:
+1
+:+1:
+8
+:raised_hands:
+5
+:tada:
+5
+
+Andrew  4 days ago
+async/await is awesome in other languages, but cancellation is often missed. Appreciate the attention to detail!
+
+Luca (Apple)  4 days ago
+@Joshua No, it’s only for List.
+
+Curt (Apple):couch_and_lamp:  4 days ago
+We’ll have a watch party for that talk at noon PDT tomorrow.
+:wwdc2021:
+7
+
+Seyed Parsa  4 days ago
+Are timers a good candidate to run there? Or there will be performance issues?
+
+Joseph  4 days ago
+I avoided list because I struggle with drag and drop so had to reimplement the swipe to delete. Also made my own grid with offsets for another project (though that project also had to target 13)..
+
+Rajée  4 days ago
+@Sam (Apple) Ok thanks! I'll have to play with it - does it re-trigger if the view is reloaded/remade as in from a publisher or something?
+
+Tom  4 days ago
+I'll be disappointed if the door code isn't 1337
+
+Rajée  4 days ago
+does .task happen once or can it be triggered many times
+
+Christopher  4 days ago
+:exploding_head: passing bindings to List and ForEach is GENIUS. Should make multi-select operations much easier.
+:heart:
+7
+
+César  4 days ago
+I’m stoked about hiding the separator in Lists! :heart_eyes:
+
+Jeff  4 days ago
+thats really cool!
+
+Jonathan  4 days ago
+Does AsyncImage have any built in caching under the hood?
+:thinking_face:
+3
+:point_up:
+3
+
+Seyed Parsa  4 days ago
+@Sam (Apple) Are timers a good candidate to start in “task”s? Or performance issues apply?
+:point_up::skin-tone-5:
+1
+
+Jonathan  4 days ago
+Does AsyncImage work correctly within Widgets? When does the load happen in that case?
+:point_up:
+2
+
+Christopher  4 days ago
+That binding change is so appreciated!
+
+Andrew  4 days ago
+Back deployment!
+:+1:
+1
+
+Michael  4 days ago
+List bindings will make things so much easier!
+:+1:
+1
+
+Rebecca  4 days ago
+Oooo being able to pass a Binding to List is such a great change!
+:+1:
+4
+:heart:
+1
+
+Jake (Apple)  4 days ago
+Woah cool pink hammer!!
+
+Jeff  4 days ago
+:tada:
+
+Cristina  4 days ago
+Will it be possible to get access to handle the image downloaded from AsyncImage?
+:heavy_plus_sign:
+3
+
+Shubham  4 days ago
+Yeah, game changing. No more functions to return a Binding :smile:
+
+Jeff  4 days ago
+@Cristina ya, you get a closure that's passed the resulting Image
+
+Rajée  4 days ago
+haha I made my own Swipe action but it was so much work
+
+Arno  4 days ago
+Nice custom swipe actions are much appreciated
+:+1::+1::skin-tone-5:
+3
+
+Jacob (Apple)  4 days ago
+AsyncImage uses the shared URLSession which uses the shared URLCache
+:raised_hands:
+10
+:+1:
+17
+:heart:
+1
+
+Regine  4 days ago
+so much code I can delete now!  Thank you!
+This message was removed.
+
+Luca (Apple)  4 days ago
+@Cristina Yes, one of the initializer on AsyncImage has a closure whose argument is the image just downloaded.
+:raised_hands:
+7
+
+Cristina  4 days ago
+Thanks @Jeff and @Luca (Apple) awesome! (edited) 
+
+Seyed Parsa  4 days ago
+Can we provide custom RowSeperators?
+
+Shubham  4 days ago
+Can we use Swipe actions for any Views? (edited) 
+
+Luca (Apple)  4 days ago
+@Shubham no, it’s only for List (edited) 
+:+1:
+3
+
+Christopher  4 days ago
+Are there any specific accessibility concerns we should take into account for the swipe actions?
+:+1:
+1
+
+Francisco  4 days ago
+Awesome, thanks to simplify it!
+
+Shubham  4 days ago
+got it @Luca (Apple) Thanks :slightly_smiling_face:
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Accessibility support is built in. Your VO users should get actions support for free.
+:heart:
+1
+:raised_hands:
+2
+
+Luca (Apple)  4 days ago
+@Christopher No, we SwiftUI takes care of that for you.
+
+Jonathan  4 days ago
+@Jacob (Apple) Does this mean that the images themselves are cached as part of the shared url cache? I know UIImage in UIKIt land there's a system cache.
+
+Rajée  4 days ago
+:man-raising-hand::skin-tone-5: Question
+How can we use these new features and stay backwards compatible? Is there a talk upcoming for this?
+I saw adding #if macros to view modifiers but what about OS version?
+:slightly_smiling_face:
+1
+:heavy_plus_sign:
+5
+
+Christopher  4 days ago
+@Curt (Apple) @Luca (Apple) Thanks!
+:+1::skin-tone-3:
+1
+
+Vladimirs  4 days ago
+is it possible to set the background color for the alternate list rows? (edited) 
+:point_up_2:
+1
+
+Michael  4 days ago
+Multi-column tables ++
+
+Michael  4 days ago
+Tables! :slightly_smiling_face:
+
+Jeffrey  4 days ago
+Do Lists use any type of caching to improve performance with large datasets?
+
+Ethan  4 days ago
+Do tables work on other platforms?
+
+Taylor (Apple)  4 days ago
+is it possible to set the background color for the alternate list row?
+@Vladimirs, No, that style just has the standard alternating row colors
+:+1:
+2
+
+Michael  4 days ago
+How's the performance of the table with large datasets? (I have issues with performance of List on macOS already with not too many rows in a List)
+:heavy_plus_sign:
+1
+
+Mark  4 days ago
+Is Table macOS-only?
+:+1:
+4
+:question:
+3
+
+Francisco  4 days ago
+What about handling controls like UISwitch in a List? (edited) 
+
+Curt (Apple):couch_and_lamp:  4 days ago
+List performance on macOS is much improved in Monterey
+:+1:
+5
+
+Sean  4 days ago
+Yeah it’s so much better! Thanks Apple!
+
+Christopher  4 days ago
+Really excited search was added!
+:raised_hands:
+2
+
+Geraldine  4 days ago
+Are list rows recycled like in table views or are they lazily loaded?
+:heavy_plus_sign:
+1
+
+Philip  4 days ago
+@Taylor (Apple) When you say the rows are “standard” colors, is that always the white / gray scheme, or is it affected by the tint color in any way?
+
+Taylor (Apple)  4 days ago
+@Philip, the greyscale scheme, not affected by tint
+:+1:
+1
+
+Andrea  4 days ago
+On macOS is there a way to change the whole background color?
+
+Amit  4 days ago
+@Jacob (Apple)  can we provide custom url session with custome URLSessionConfiguration for different cache behaviours ?
+
+Peter  4 days ago
+Is `.task { } ` mostly for one-time fetching, or can we use it to set up code that establishes a listener to a server?
+
+Romy  4 days ago
+@Taylor (Apple) for the new  Table would it be possible to have a pinned column and header (spreadsheet style)
+
+Geraldine  4 days ago
+Question about lists. I’m using it to display async images list similar to the Unsplash app. The images leading and trailing sides don’t have padding and there is 1 point of spacing between each row. Is this possible to achieve with the new lists?
+
+Taylor (Apple)  4 days ago
+@Romy, the singular column headers are always pinned to the top. But if you wanted to have multiple pinned headers or columns, Table wouldn’t be a good fit for that use case.
+:thumbsup_all:
+1
+
+Geraldine  4 days ago
+Never mind. I figured it out. Use the .listRowInsets view modifier to configure the padding for list items.
+
+Samuel  4 days ago
+is refreshable stylable in any way (e.g. can a label to added below the spinner) or is it fully opaque?
+:point_up:
+2
+
+Jeffrey  4 days ago
+Have there been performance enhancements to List on iOS for dealing with larger datasets?
+:heavy_plus_sign:
+1
+
+Dan  4 days ago
+I think Matt mentioned something about back porting to older versions of SwiftUI how many things are like that?
+:heavy_plus_sign:
+1
+
+Justin  4 days ago
+Are AsyncImages cached?
+:heavy_plus_sign:
+4
+
+Stefan  4 days ago
+@Mark according to the documentation the Table view is only available on macOS.
+:thumbsup_all:
+1
+
+Niels  4 days ago
+What image formats does AsyncImage support? (I assume jpg and png, but what about webp?) (edited) 

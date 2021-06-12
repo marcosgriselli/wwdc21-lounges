@@ -1,0 +1,351 @@
+
+Betsy (Apple) Jun 8th at 2:32 PM
+Text and keyboard thread :thread:
+:keyboard:
+8
+
+
+
+80 replies
+
+Ethan  4 days ago
+Does it support syntax highlighting?
+:heavy_plus_sign:
+1
+
+Seyed Parsa  4 days ago
+Markdown!
+:star-struck:
+2
+
+Valentin  4 days ago
+Oooh markdown!
+
+Frank (Apple)  4 days ago
+Markdown Support :star-struck:
+:heart:
+6
+
+Gilad  4 days ago
+lol meta — awesome
+
+Ryan  4 days ago
+MD in Text?! What the whaaaaa?
+
+Shubham  4 days ago
+Markdown will be so helpful!!!
+:+1:
+1
+
+Seyed Parsa  4 days ago
+Does markdown there support links and linked images?
+
+Justin  4 days ago
+Interactive links woah
+
+Fernando  4 days ago
+Any way to get a text input picker on watchOS without using TextField? E.g. in response to a button in the UI
+
+Jose Adolfo  4 days ago
+AttributedString!!
+
+Kedar  4 days ago
+Wow this is insane
+
+Amit  4 days ago
+Is LinkedImages are also supported ?
+
+Yutaro  4 days ago
+Does Markdown support Heading?
+:heavy_plus_sign:
+1
+
+Jeff  4 days ago
+does the markdown parsing support the full spec? i.e. code blocks, headings, etc
+
+Vladimirs  4 days ago
+Is it possible now to make a TextField focused by default, so the keyboard is visible when user navigates to the new screen?
+:point_up:
+4
+:eyes:
+1
+
+Seyed Parsa  4 days ago
+Does Markdown support links and linked images?
+:heavy_plus_sign:
+1
+
+Natalia (Apple)  4 days ago
+Markdown supports links: Text("My [link](https://apple.com)") (edited) 
+:100:
+2
+:heart:
+13
+:fireworks:
+1
+
+Curt (Apple):couch_and_lamp:  4 days ago
+Full field focus control this year.
+:clap:
+5
+:raised_hands:
+6
+:tada:
+6
+:exploding_head:
+3
+
+Gilad  4 days ago
+I saw focus API in the diffs (edited) 
+
+Taylor (Apple)  4 days ago
+No spoilers! :smile:
+:sweat_smile:
+2
+:stuck_out_tongue_closed_eyes:
+1
+
+Seyed Parsa  4 days ago
+Selectable text with ease :)))
+
+Josh (Apple)  4 days ago
+@Fernando that API exists in WatchKit  itself and can be called from SwiftUI
+
+Andrew  4 days ago
+Would be great to see Dynamic Type on macOS… :smile:
+
+Vladimirs  4 days ago
+:heavy_plus_sign: For the dynamic type ranges :pray:
+:raised_hands:
+3
+
+Natalia (Apple)  4 days ago
+Markdown only supports inline styles like emphasis, strong emphasis, code etc. Doesn’t support paragraph styles such as Headers
+:+1:
+4
+:eyes:
+3
+:-1:
+1
+
+Jeff:bird:  4 days ago
+Can you manually disable Markdown support for text?
+
+Mateus  4 days ago
+Is there a documentation detailing the markdown specification?
+:heavy_plus_sign:
+2
+
+Seyed Parsa  4 days ago
+@Jeff maybe using raw strings?
+
+Fernando  4 days ago
+@Josh (Apple) thanks! Follow up question: does the WatchKit text input controller support the enhancements to text input from SwiftUI? E.g. remembering scribble preferences
+
+Philip  4 days ago
+To Jeff’s point: Is there a way to escape markdown to display a raw markdown string in your text?
+
+Clément  4 days ago
+the formatting was previously inside the string "\(myDate, format: DateFormatter)" is it still here ?
+
+Michael  4 days ago
+:open_mouth: formatted lists
+:tada:
+1
+
+Sean  4 days ago
+This might be a stupid question, but will the apps shown in this session be available to download as source code? I’d love to experiment with it? Thanks :slightly_smiling_face:
+:heavy_plus_sign:
+4
+
+Josh (Apple)  4 days ago
+@Fernando Lets chat about that during the Q&A :slightly_smiling_face:
+:+1:
+1
+
+Seyed Parsa  4 days ago
+@Sean The code can be copied from the developer app
+:+1:
+3
+
+Natalia (Apple)  4 days ago
+For disabling Markdown you can either use either create Text with init(verbatim:) if you don’t need it localized, or make a localized string yourself with String.init(localized:table:bundle:locale:comment:) and pass it to a Text view
+:heart:
+5
+:+1:
+1
+
+Sean  4 days ago
+@Seyed Parsa Oh thank you! :slightly_smiling_face:
+:blush:
+1
+
+Christopher  4 days ago
+Love these keyboard changes!
+
+Austin  4 days ago
+@Sean there's a full list here but idk if any are associated with this session. (edited) 
+developer.apple.comdeveloper.apple.com
+Sample Code - WWDC21 - Apple Developer
+View sample code to see how the latest Apple technologies are implemented.
+
+Yugantar  4 days ago
+I love the new date formatting!!!
+
+Matthew  4 days ago
+Love the keyboard toolbar !
+
+Seyed Parsa  4 days ago
+Up/Down buttons on Touch Bar should be useful
+
+Andrew  4 days ago
+@Natalia (Apple) how does markdown work with compatibility with older OS versions?
+
+Christopher  4 days ago
+.keyboard toolbar placement
+
+Joseph  4 days ago
+onSubmit! Like it. Have a nasty hack to remove now.
+
+Soo Rin  4 days ago
+Is the new DocC built with SwiftUI? if so is the new markdown support what's driving it?
+
+Luca (Apple)  4 days ago
+Also, if you think that disabling markdown parsing is an important use case we would love for you to submit feedbacks.
+:+1:
+6
+
+Sean  4 days ago
+@Austin Hey thanks mate! Appreciate it :blush:
+
+Geraldine  4 days ago
+I’m very happy with the keyboard text field additions for SwiftUI this year. I have no more complaints about building forms anymore.
+:heart:
+7
+
+Christian  4 days ago
+I had problems with running UI tests that enter text in TextFields when Simulator didn’t show the keyboard last time it was used. Any idea if that is improved?
+
+Seyed Parsa  4 days ago
+Any session on best practices for UI Testing in SwiftUI this year?
+
+Matt (Apple)  4 days ago
+Remember: you can copy code snippets for slides in the developer app!
+The code snippets often go beyond what's just on the slide, providing more complete sample code than can fit onscreen.
+:heart:
+14
+:exploding_head:
+1
+
+Mateus  4 days ago
+why this FocusState was introduced instead of using State?
+:thinking_face:
+3
+
+Jeff:bird:  4 days ago
+Yeah, a lot of app text reflects user-generated content. I could see allowing Markdown being a problem in some cases. I’ll file a Feedback.
+
+Christopher  4 days ago
+Hooray!!! No more UIApplication.shared.resignFirstResponder() to dismiss keyboard! (edited) 
+:heart:
+3
+
+Matt (Apple)  4 days ago
+@Mateus focus is not local state, but a global state of your app. These FocusState properties all coordinate with each other
+:+1:
+9
+:raised_hands:
+2
+:grinning:
+2
+
+Joseph  4 days ago
+On the markdown I feel it ought to be a separate init. The default should just be raw text.
+:point_up:
+1
+
+Philip  4 days ago
+Super excited to see the improvements in keyboard focus. As I’m sure many other techies can relate to, being able to tab my way through a UI is key. Being able to customize this kind of behavior on iPad apps is great.
+:raised_hands:
+2
+
+Andrew  4 days ago
+Had a lot of issues w/ button sizing w/ SwiftUI & Catalyst. Are there any changes this year?
+
+Patrick Lorran  4 days ago
+Does the new AttributedString supports paragraph styles like head indent, tab stops and paragraph spacing (like the ones in NSParagraphStyle)? (edited) 
+:heavy_plus_sign:
+1
+
+Alejandro  4 days ago
+how do the links get handled? :open_mouth:
+:heavy_plus_sign:
+1
+
+Cristina  4 days ago
+Talking about keyboard, will it be possible to react to keyboard appearing/disappearing to move the focused text input above the keyboard like in UIKit?
+
+Natalia (Apple)  4 days ago
+Markdown will only be parsed in Text by default if your apps are rebuilt with the new SDK
+:+1:
+2
+
+Luca (Apple)  4 days ago
+@Jeff if you are displaying user-generated content you most likely end up calling something like Text(message) which doesn’t do localization and markdown parsing.
+:+1:
+3
+
+Harry (Apple)  4 days ago
+@Cristina You should look at the new onFocus { isFocused in ... } modifier. It allows you to respond to changes in focus.
+
+Joseph  4 days ago
+To be clear, I love that there is Markdown support, I just think it shouldn't be default, potential for injection of links from user data. Plus accidental styling.
+
+Matthaus  4 days ago
+is there any way to set/observe the insertion point in TextFields
+
+Cristina  4 days ago
+Thanks @Harry (Apple) and will it be possible to scroll the view to the right offset inside that modifier? I remember having a hard time trying to do that in the past
+
+Natalia (Apple)  4 days ago
+User data will not be parsed by default, Markdown is only parsed in LocalizedStringKey
+:raised_hands:
+2
+
+Luca (Apple)  4 days ago
+Markdown parsing is done only when you use the initializer that takes a literal String. When creating a Text from a variable (hence user data) we won’t parse that.
+:+1:
+1
+
+Jeff  4 days ago
+does that mean we can't access the markdown parsing if we get text from a server?
+
+Natalia (Apple)  4 days ago
+When you create a Text view with a string literal, you are calling init(_:tableName:bundle:comment:) with a LocalizedStringKey where your string literal is the key
+
+Joseph  4 days ago
+OK. If it only applies to literal strings it should be fine, but there might be more confusion when it doesn't work for variable strings (which will often be desirable).
+:heart:
+1
+
+Natalia (Apple)  4 days ago
+You can manually create a LocalizedStringKey from a variable then pass it to a Text view
+:+1:
+1
+
+Andrew  4 days ago
+That makes sense… what happens if you back-deploy a string like “Hello world” to iOS 14?
+
+Harry (Apple)  4 days ago
+@Cristina Calling scrollTo(_:) inside of the onFocus modifier should work as expected. Please submit a feedback if you find that isn't the case!
+
+Cristina  4 days ago
+Thank you very much @Harry (Apple)
+
+Joseph  4 days ago
+I think my preference would be to have Text(markdown: as additional init. I think it would be more predictable for users.
+:+1:
+2
+
+Yvette  4 days ago
+Is there support for keyboard avoiding for TextEditor wrapped inside the Form {} with .ignoresSafeArea([.keyboard]), edges: .bottom)?
